@@ -68,8 +68,8 @@ export const resume = {
     education: [
         {
             school: 'Tehran North Branch Azad University',
-            degree: ' Bachelor’s in Computer Engineering', 
-            period: '2021 — 2025', 
+            degree: ' Bachelor’s in Computer Engineering',
+            period: '2021 — 2025',
             location: '', // optional
             notes: '', // optional — GPA, honors, focus
         },
@@ -96,28 +96,21 @@ export const resume = {
     projects: [
         {
             name: 'BadmintonPro',
+            context: "team",
             subtitle: 'Team Project · badmintonpro.ir',
             description:
                 'A full-featured platform for a badminton academy. I designed and implemented the landing, login, blog, and About Us pages, plus a session management calendar with weekly and monthly views, and a video upload & analysis system with commenting and coach feedback.',
             role: 'Front-End Developer (Team)',
             tech: ['Nuxt 3', 'Tailwind CSS'],
-            link: '', // GitHub if public
+            link: '',
             live: 'https://badmintonpro.ir',
             featured: true,
+            status: 'Live', // 'Live' | 'In development' | 'Archived'
         },
-        {
-            name: 'Business Management System',
-            subtitle: 'Contribution to development',
-            description:
-                'A business management system where I implemented real-time product search and inventory management with stock indicators, a multi-method payment system (cash, card, credit, split payments), item- and invoice-level discounts, invoice drafts, a bilingual virtual keyboard, and a hierarchical tree view of accounts and subaccounts for accounting data.',
-            role: 'Front-End Developer',
-            tech: ['Vue', 'Nuxt', 'Pinia'],
-            link: '',
-            live: '',
-            featured: true,
-        },
+
         {
             name: 'Crochet Productivity Web App',
+            context: "personal",
             subtitle: 'Nuxt 3 + Vuetify',
             description:
                 'A productivity tool for crochet enthusiasts. Features a creation gallery, pattern storage, yarn and supplies inventory management, stitch counters, project tracking, and task lists — all in a clean, responsive interface.',
@@ -126,9 +119,11 @@ export const resume = {
             link: '',
             live: '',
             featured: true,
+            status: 'In development',
         },
         {
             name: 'Personal Crochet Website',
+            context: "personal",
             subtitle: 'Multilingual + themeable',
             description:
                 'A personal site with Persian/English support via i18n, light and dark themes, a dynamic gallery with image filtering and zoom, product categories, and a sidebar navigation with ordering guidance — fully responsive across devices.',
@@ -137,9 +132,24 @@ export const resume = {
             link: '',
             live: '',
             featured: false,
+            status: 'Live',
+        },
+        {
+            name: 'Business Management System',
+            context: "company",
+            subtitle: 'Contribution to development',
+            description:
+                'A business management system where I implemented real-time product search and inventory management with stock indicators, a multi-method payment system (cash, card, credit, split payments), item- and invoice-level discounts, invoice drafts, a bilingual virtual keyboard, and a hierarchical tree view of accounts and subaccounts for accounting data.',
+            role: 'Front-End Developer',
+            tech: ['Vue', 'Nuxt', 'Pinia'],
+            link: '',
+            live: '',
+            featured: true,
+            status: 'Archived',
         },
         {
             name: 'Software Product Landing Pages',
+            context: "company",
             subtitle: 'Responsive marketing sites',
             description:
                 'Designed and developed responsive landing pages to showcase software products and present product information clearly to users.',
@@ -148,9 +158,9 @@ export const resume = {
             link: '',
             live: '',
             featured: false,
+            status: 'Live',
         },
     ],
-
     // ─── Skills ──────────────────────────────────────────
     skills: {
         Languages: ['HTML', 'CSS', 'JavaScript', 'TypeScript'],

@@ -42,7 +42,7 @@ import { useReveal } from "~/composables/useReveal";
             />
           </div>
 
-          //todo: change it to a status later
+          <!-- //todo: change it to a status later -->
           <!-- Small accent dot -->
           <span
             class="absolute -bottom-2 -right-2 w-6 h-6 rounded-full bg-violet-500 ring-4 ring-white dark:ring-slate-950"

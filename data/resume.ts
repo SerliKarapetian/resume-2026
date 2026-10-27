@@ -22,6 +22,7 @@ export const resume = {
         github: 'https://github.com/serlikarapetian',
         linkedin: 'https://linkedin.com/in/serli-gharapetian',
     },
+    repoUrl: "https://github.com/serlikarapetian/resume-2026",
 
     // ─── Assets (in /public) ─────────────────────────────
     avatar: '/avatar.jpg',

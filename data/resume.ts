@@ -20,7 +20,7 @@ export const resume = {
     // phone: '+989123456789', 
     socials: {
         github: 'https://github.com/serlikarapetian',
-        linkedin: 'https://linkedin.com/in/serli-gharapetian',
+        linkedin: 'https://www.linkedin.com/in/serli-gharapetian/',
     },
     repoUrl: "https://github.com/serlikarapetian/resume-2026",
 
